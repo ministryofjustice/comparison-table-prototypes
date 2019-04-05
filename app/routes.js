@@ -13,5 +13,9 @@ router.get('/table-three', function (req, res) {
   res.render('table-three');
 });
 
+router.get('/table-four', function (req, res) {
+  res.render('table-four');
+});
+
 
 module.exports = router

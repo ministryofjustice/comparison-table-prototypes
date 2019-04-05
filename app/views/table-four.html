@@ -1,0 +1,139 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        CAIT Comparison Table - Option 1
+      </h1>
+
+      <div role="region" aria-labelledby="table-caption" tabindex="0">
+        <table class="govuk-table">
+    
+          <caption id="table-caption" class="govuk-table__caption">Dates and amounts</caption>
+      
+          <thead class="govuk-table__head">
+            <tr class="govuk-table__row">
+              <th class="govuk-table__header" scope="col">Comparison Type</th>
+              <th class="govuk-table__header" scope="col">Mediation tools and services</th>  
+              <th class="govuk-table__header" scope="col">Professional mediation</th>       
+              <th class="govuk-table__header" scope="col">Lawyer negotiation</th>         
+              <th class="govuk-table__header" scope="col">Collaborative law</th>        
+              <th class="govuk-table__header" scope="col">Going to court</th>
+            </tr>
+          </thead>
+          
+          <tbody class="govuk-table__body">
+            <tr class="govuk-table__row">         
+              <th class="govuk-table__header" scope="row">Average starting costs</th>        
+              <td class="govuk-table__cell">Free to £150</td>       
+              <td class="govuk-table__cell">£90 per person</td>       
+              <td class="govuk-table__cell">£110 per hour</td>      
+              <td class="govuk-table__cell">£110 per hour</td>
+              <td class="govuk-table__cell">£305 if there&#39;re no safety concerns</td>  
+            </tr>
+            
+            <tr class="govuk-table__row">     
+              <th class="govuk-table__header" scope="row">Average time it takes</th>
+              <td class="govuk-table__cell">Own pace</td>
+              <td class="govuk-table__cell">3-5 sessions</td>
+              <td class="govuk-table__cell">TBC</td>
+              <td class="govuk-table__cell">TBC</td>      
+              <td class="govuk-table__cell">6 months</td> 
+            </tr>
+            
+            <tr class="govuk-table__row">
+              <th class="govuk-table__header" scope="row">How  much can you speak</th>          
+              <td class="govuk-table__cell">As much as you like</td>         
+              <td class="govuk-table__cell">As much as you like</td>        
+              <td class="govuk-table__cell">Your lawyer speaks for you</td>                
+              <td class="govuk-table__cell">Your lawyer will help you to prepare</td>
+              <td class="govuk-table__cell">Only when the judge asks you to</td>           
+            </tr>
+            
+            <tr class="govuk-table__row">         
+              <th class="govuk-table__header" scope="row">Long-term success rate</th>      
+              <td class="govuk-table__cell">TBC</td>       
+              <td class="govuk-table__cell">69%</td>            
+              <td class="govuk-table__cell">TBC</td>        
+              <td class="govuk-table__cell">TBC</td>
+              <td class="govuk-table__cell">14%</td>          
+            </tr>
+            
+            <tr class="govuk-table__row">      
+              <th class="govuk-table__header" scope="row">Who decides</th>         
+              <td class="govuk-table__cell">You and the other parent</td>      
+              <td class="govuk-table__cell">You and the other parent</td>         
+              <td class="govuk-table__cell">You and the other parent</td>           
+              <td class="govuk-table__cell">You and the other parent</td>           
+              <td class="govuk-table__cell">Judge or magistrate</td>            
+            </tr>
+            
+            <tr class="govuk-table__row">               
+              <th class="govuk-table__header" scope="row">Legally binding</th>         
+              <td class="govuk-table__cell">No</td>              
+              <td class="govuk-table__cell">No</td>            
+              <td class="govuk-table__cell">No</td>         
+              <td class="govuk-table__cell">No</td>            
+              <td class="govuk-table__cell">Yes</td>         
+            </tr>
+            
+            <tr class="govuk-table__row">             
+              <th class="govuk-table__header" scope="row">Adaptable arrangements</th>         
+              <td class="govuk-table__cell">Yes</td>         
+              <td class="govuk-table__cell">Yes</td>               
+              <td class="govuk-table__cell">Yes</td>         
+              <td class="govuk-table__cell">Yes</td>       
+              <td class="govuk-table__cell">No</td>          
+            </tr>
+            
+            <tr class="govuk-table__row">        
+              <th class="govuk-table__header" scope="row">Legally enforceable</th>         
+              <td class="govuk-table__cell">No</td>         
+              <td class="govuk-table__cell">No</td>     
+              <td class="govuk-table__cell">No</td>           
+              <td class="govuk-table__cell">No</td>           
+              <td class="govuk-table__cell">No</td>       
+            </tr>
+            
+            <tr class="govuk-table__row">     
+              <th class="govuk-table__header" scope="row">Appointment location, dates and times to suit you</th>
+              <td class="govuk-table__cell">Yes</td>           
+              <td class="govuk-table__cell">Yes</td>          
+              <td class="govuk-table__cell">Yes</td>    
+              <td class="govuk-table__cell">Yes</td>
+              <td class="govuk-table__cell">No</td>         
+            </tr>
+            
+            <tr class="govuk-table__row">
+              <th class="govuk-table__header" scope="row">Help you manage conflict with the other parent</th>
+              <td class="govuk-table__cell">Yes</td>
+              <td class="govuk-table__cell">Yes</td>           
+              <td class="govuk-table__cell">Yes</td>           
+              <td class="govuk-table__cell">Yes</td>           
+              <td class="govuk-table__cell">No</td>        
+            </tr>
+            
+            <tr class="govuk-table__row">
+              <th class="govuk-table__header" scope="row">What other parents say</th>
+              <td class="govuk-table__cell">TBC</td>          
+              <td class="govuk-table__cell">TBC</td>           
+              <td class="govuk-table__cell">TBC</td>           
+              <td class="govuk-table__cell">TBC</td>           
+              <td class="govuk-table__cell">TBC</td>         
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+</div>
+
+{% endblock %}
+
