@@ -288,3 +288,9 @@ $govuk-global-styles: true;
     }
   }
 }
+
+.responsive-table-four {
+  overflow-x: auto;
+  width: 100%;
+  display: block;
+}
