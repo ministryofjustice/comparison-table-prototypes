@@ -13,10 +13,10 @@ $govuk-global-styles: true;
 @import "components/cookie-banner";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+$mobile: 48rem;
 
 // Taken from https://github.com/Fenwick17/responsive-tables/blob/master/app/assets/sass/tables/transactions.scss
 .responsive-table-one {
-  $mobile: 768px;
   width: 100%;
 
   thead {
@@ -106,7 +106,6 @@ $govuk-global-styles: true;
 }
 
 .responsive-table-two {
-  $mobile: 768px;
   width: 100%;
 
   thead {
@@ -196,7 +195,6 @@ $govuk-global-styles: true;
 }
 
 .responsive-table-three {
-  $mobile: 768px;
   width: 100%;
 
   .govuk-table__caption {
@@ -293,4 +291,50 @@ $govuk-global-styles: true;
   overflow-x: auto;
   width: 100%;
   display: block;
+}
+
+.responsive-table-one-v2 {
+  .table-of-contents {
+    .govuk-list {
+      li {
+        line-height: 2;
+      }
+      li::before {
+        content: "\2014 ";
+        padding-right: 5px;
+      }
+    }
+    @media (min-width: $mobile) {
+      display: none;
+    }
+  }
+  .agreement-links {
+    margin-top: 2.5rem;
+    @media (min-width: $mobile) {
+      display: none;
+    }
+  }
+  th {
+    font-size: 1.125rem;
+    padding: 1.5rem 0 1rem 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+
+    @media (min-width: 40.0625em) {
+      font-size: 1.5rem;
+    }
+    
+    @media (min-width: $mobile) {
+      padding: unset;
+      margin-bottom: unset;
+      font-size: 1.1875rem;
+      padding: 10px 20px 10px 0;
+      border-bottom: 1px solid #bfc1c3;
+    }
+  }
+  caption {
+    @media (max-width: $mobile) {
+      display: none;
+    }
+  }
 }

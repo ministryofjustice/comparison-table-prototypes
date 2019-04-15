@@ -1,0 +1,227 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row responsive-table-one-v2">
+    <div class="govuk-grid-column-full">
+      <h1 class="govuk-heading-xl">
+        Option 1 - Responsive Plain Table
+      </h1>
+
+      <p class="govuk-body-l">There are different ways you can make child arrangements. Most parents do not need to go to court. There is help available to come to a decision that’s in the child’s best interests.</p>
+      
+      <div class="table-of-contents">
+      
+        <h2 class="govuk-heading-m">
+          Contents
+        </h2>
+
+        <ul class="govuk-list">
+          <li>
+            <a class="govuk_link" href="#average-starting-costs">
+              Average starting costs
+            </a>
+          </li>
+          <li>
+            <a class="govuk_link" href="#average-time-it-takes">
+              Average time it Takes
+            </a>
+          </li>
+          <li>
+            <a class="govuk_link" href="#how-much-can-you-speak">
+              How much can you speak
+            </a>
+          </li>
+          <li>
+            <a class="govuk_link" href="#long-term-success-rate">
+              Long-term success rate
+            </a>
+          </li>
+          <li>
+            <a class="govuk_link" href="#who-decides">
+              Who decides
+            </a>
+          </li>
+          <li>
+            <a class="govuk_link" href="#legally-binding">
+              Legally binding
+            </a>
+          </li>
+          <li>
+            <a class="govuk_link" href="#adaptable-arrangements">
+              Adaptable arrangements
+            </a>
+          </li>
+          <li>
+            <a class="govuk_link" href="#legally-enforceable">
+              Legally enforceable
+            </a>
+          </li>
+          <li>
+            <a class="govuk_link" href="#location-dates-times-to-suit">
+              Appointment location, dates and times to suit you
+            </a>
+          </li>
+          <li>
+            <a class="govuk_link" href="#manage-conflict">
+              Help you manage conflict with the other parent
+            </a>
+          </li>
+          <li>
+            <a class="govuk_link" href="#other-parents">
+              What other parents say
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <table class="govuk-table responsive-table-one">
+  
+        <caption class="govuk-table__caption">Dates and amounts</caption>
+    
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th class="govuk-table__header" scope="col">Comparison Type</th>
+            <th class="govuk-table__header" scope="col"><a href="#">Mediation tools and services</a></th>  
+            <th class="govuk-table__header" scope="col"><a href="#">Professional mediation</a></th>       
+            <th class="govuk-table__header" scope="col"><a href="#">Lawyer negotiation</a></th>         
+            <th class="govuk-table__header" scope="col"><a href="#">Collaborative law</a></th>        
+            <th class="govuk-table__header" scope="col"><a href="#">Going to court</a></th>
+          </tr>
+        </thead>
+        
+        <tbody class="govuk-table__body">
+          <tr class="govuk-table__row">         
+            <th class="govuk-table__header mobile-header id="average-starting-costs" scope="row">Average starting costs</th>        
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>Free to £150</td>       
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>£90 per person</td>       
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>£110 per hour</td>      
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>£110 per hour</td>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>£305 if there&#39;re no safety concerns</td>  
+          </tr>
+          
+          <tr class="govuk-table__row">     
+            <th class="govuk-table__header mobile-header" id="average-time-it-takes" scope="row">Average time it takes</th>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>Own pace</td>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>3-5 sessions</td>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>TBC</td>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>TBC</td>      
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>6 months</td> 
+          </tr>
+          
+          <tr class="govuk-table__row">
+            <th class="govuk-table__header mobile-header" id="how-much-can-you-speak" scope="row">How  much can you speak</th>          
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>As much as you like</td>       
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>As much as you like</td>        
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>Your lawyer speaks for you</td>                
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>Your lawyer will help you to prepare</td>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>Only when the judge asks you to</td>           
+          </tr>
+          
+          <tr class="govuk-table__row">         
+            <th class="govuk-table__header mobile-header" id="long-term-success-rate" scope="row">Long-term success rate</th>      
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>TBC</td>       
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>69%</td>            
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>TBC</td>        
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>TBC</td>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>14%</td>          
+          </tr>
+          
+          <tr class="govuk-table__row">      
+            <th class="govuk-table__header mobile-header" id="who-decides" scope="row">Who decides</th>         
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>You and the other parent</td>  
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>You and the other parent</td>         
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>You and the other parent</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>You and the other parent</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>Judge or magistrate</td>            
+          </tr>
+          
+          <tr class="govuk-table__row">               
+            <th class="govuk-table__header mobile-header" id="legally-binding" scope="row">Legally binding</th>         
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>No</td>              
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>No</td>            
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>No</td>         
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>No</td>            
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>Yes</td>         
+          </tr>
+          
+          <tr class="govuk-table__row">             
+            <th class="govuk-table__header mobile-header" id="adaptable-arrangements" scope="row">Adaptable arrangements</th>         
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>Yes</td>         
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>Yes</td>               
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>Yes</td>         
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>Yes</td>       
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>No</td>          
+          </tr>
+          
+          <tr class="govuk-table__row">        
+            <th class="govuk-table__header mobile-header" id="legally-enforceable" scope="row">Legally enforceable</th>         
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>No</td>         
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>No</td>     
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>No</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>No</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>No</td>       
+          </tr>
+          
+          <tr class="govuk-table__row">     
+            <th class="govuk-table__header mobile-header" id="location-dates-times-to-suit" scope="row">Appointment location, dates and times to suit you</th>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>Yes</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>Yes</td>          
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>Yes</td>    
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>Yes</td>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>No</td>         
+          </tr>
+          
+          <tr class="govuk-table__row">
+            <th class="govuk-table__header mobile-header" id="manage-conflict" scope="row">Help you manage conflict with the other parent</th>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>Yes</td>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>Yes</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>Yes</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>Yes</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>No</td>        
+          </tr>
+          
+          <tr class="govuk-table__row">
+            <th class="govuk-table__header mobile-header" id="other-parents" scope="row">What other parents say</th>
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Mediation tools and services</span>TBC</td>          
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Professional mediation</span>TBC</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Lawyer negotiation</span>TBC</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Collaborative law</span>TBC</td>           
+            <td class="govuk-table__cell"><span class="table-heading" aria-hidden="true">Going to court</span>TBC</td>         
+          </tr>
+          
+        </tbody>
+      </table>
+
+      <div class="agreement-links">
+        <h2 class="govuk-heading-m">Ways to reach an agreement</h2>
+
+        <ul class="govuk-list">
+          <li>
+            <a href="" class="govuk_link">Mediation tools and services</a>  
+          </li>
+          <li>
+            <a href="" class="govuk_link">Professional mediation</a>       
+          </li>
+          <li>
+            <a href="" class="govuk_link">Lawyer negotiation</a>   
+          </li>
+          <li>      
+            <a href="" class="govuk_link">Collaborative law</a>     
+          </li>
+          <li>   
+            <a href="" class="govuk_link">Going to court</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+</div>
+
+{% endblock %}
