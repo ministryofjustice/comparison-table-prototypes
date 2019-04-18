@@ -338,10 +338,8 @@ $mobile: 48rem;
   }
 }
 
-.responsive-table-four-v3 {
-  .scroll-to-see-more {
-    @media (min-width: $mobile) {
-      display: none;
-    }
+.scroll-to-see-more {
+  @media (min-width: $mobile) {
+    display: none;
   }
 }
