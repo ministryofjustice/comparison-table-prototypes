@@ -99,7 +99,6 @@ $mobile: 48rem;
         @media (min-width: $mobile) {
           text-align: left;
         }
-
       }
     }
   }
@@ -334,6 +333,14 @@ $mobile: 48rem;
   }
   caption {
     @media (max-width: $mobile) {
+      display: none;
+    }
+  }
+}
+
+.responsive-table-four-v3 {
+  .scroll-to-see-more {
+    @media (min-width: $mobile) {
       display: none;
     }
   }
